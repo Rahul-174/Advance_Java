@@ -16,5 +16,5 @@ Collections Examples:
     4. HashMap
 
 #### Collection Hierarchy
-![Alt text](C:\Users\Rahul\IdeaProjects\Advance_Java\Java.util.Collection_hierarchy.svg?raw=true "Title")
+![Screenshot](Hierarchy.png)
 
