@@ -1,31 +1,15 @@
 package javaCollections;
-/*
-    add(element)
-    add(index,element)
-    get(index)
-    addALL(<collection>)
-    addAll(index,<collection>)
-    clear()
-    contains()
-    indexOf() -> index of first occurrence of element
-    lastIndexOf() -> index of last occurrence of element
-    set(index,element) -> inputs element at defined index
 
-    remove(index)
-    remove(Integer.valueOf(element))
+import java.util.LinkedList;
 
-
-*/
-
-import java.util.ArrayList;
-
-public class CollectionArrayList {
+public class CollectionLinkedList {
     public static void main(String[] args) {
-        ArrayList<Integer>list = new ArrayList<>();
-        list.add(60); //add(ele) => adds the ele at end of list
-        list.add(36);
-        list.add(62);
-        list.add(16);
+        LinkedList<Integer>list = new LinkedList<>();
+        list.add(12);
+        list.add(13);
+        list.add(14);
+        list.add(15);
+
         list.add(1,10);//add(index,ele) => adds ele at the index index
 
         for(int i=0;i<list.size();i++)
@@ -33,7 +17,7 @@ public class CollectionArrayList {
             System.out.println(list.get(i)); //get(index)
         }
 
-        ArrayList list2=new ArrayList<>();
+        LinkedList list2=new LinkedList();
         list2.add(100);
         list2.add(200);
 
@@ -61,14 +45,5 @@ public class CollectionArrayList {
         //set(index,element)
         list.set(0,10000);
         System.out.println(list);
-
-        //remove(index)
-        list.remove(1);
-        System.out.println(list);
-
-        list.remove(Integer.valueOf(10000));
-        System.out.println(list);
-
-
     }
 }
