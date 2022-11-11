@@ -6,7 +6,7 @@
     such as searching, sorting, insertion, manipulation, and deletion.
     
 
-#### # Collection class is available in java.util package
+#### # Collection Interface is available in java.util package
 
 Collections Examples:
 
@@ -16,5 +16,5 @@ Collections Examples:
     4. HashMap
 
 #### Collection Hierarchy
-![Hierarchy.png](Hierarchy.png)
+![](Hierarchy.png)
 
