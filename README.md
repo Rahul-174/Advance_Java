@@ -16,5 +16,5 @@ Collections Examples:
     4. HashMap
 
 #### Collection Hierarchy
-![Screenshot](Hierarchy.png)
+![Hierarchy.png](Hierarchy.png)
 
